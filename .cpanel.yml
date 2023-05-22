@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/user/public_html/
+ - /bin/cp index.html ssh://smartunique92@smartuniqueint.com/home/smartunique92/Expense-Manager
+ - /bin/cp style.css ssh://smartunique92@smartuniqueint.com/home/smartunique92/Expense-Manager
